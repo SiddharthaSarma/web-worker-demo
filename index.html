@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web worker</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Web Worker demo</h1>
+      <div class="output-cont">
+        <button id="startWorker">start worker</button>
+        <h3 id="workerOutput"></h3>
+        <button id="terminateWorker">terminate worker</button>
+      </div>
+      <br />
+      <div class="output-cont">
+        <button id="mainThread">start blocking thread</button>
+        <h3 id="mainThreadOutput"></h3>
+      </div>
+      <br />
+      <div class="output-cont">
+        <button id="browserResponsive">test browser responsiveness</button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
